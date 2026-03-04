@@ -457,7 +457,7 @@
         <li>Language models (N-grams)</li>
         <li>Word embeddings (word2vec)</li>
         <li>Neural networks for LMs</li>
-        <li>RNNs for sequence labeling</li>
+        <li>RNNs for sequence modeling</li>
         <li>Self-attention mechanism</li>
         <li>Transformer architecture</li>
       </ul>
@@ -469,16 +469,17 @@
       <ul style="margin:0;">
         <li>Pretraining & fine-tuning</li>
         <li>Evaluation & benchmarking</li>
-        <li>In-context learning</li>
-        <li>Reasoning & agents</li>
+        <li>Prompt Engineering & In-context learning</li>
+        <li>Reasoning & Agents</li>
         <li>Diffusion language models</li>
       </ul>
       <div style="height:14px;"></div>
-      <div style="font-weight:900; color:#1f4e9a;">Applications</div>
+      <div style="font-weight:900; color:#1f4e9a;">Advances</div>
       <div style="height:5px;"></div>
       <ul style="margin:0;">
-        <li>Machine translation</li>
-        <li>Syntactic analysis</li>
+        <li>Alignment & Safety</li>
+        <li>Efficiency & Systems</li>
+        <li>Agents & Frontiers</li>
       </ul>
     </div>
   </div>
