@@ -43,23 +43,9 @@ This course covers the foundations and modern frontiers of Natural Language Proc
 All standard homework assignments are completed by **Week 12**. The final month (Weeks 13–16) is dedicated exclusively to the Course Project. Please submit your homework at [https://elearning.fudan.edu.cn/](https://elearning.fudan.edu.cn/)
 
 ### Assignment 1. Foundations of Text
-- **Due:** Week 4
-- **Scope:** Implement BPE tokenization from scratch; train a Word2Vec model.
-- **Deliverable:** Python Notebook + Analysis Report.
+- **Due:** Week 5 (04/02/2026 23:59 pm)
+- **Deliverable:** Please check out it at [elearning](https://elearning.fudan.edu.cn/).
 
-### Assignment 2. The Transformer Block
-- **Due:** Week 7
-- **Scope:** Build a mini-Transformer; visualize attention heads.
-- **Track B Requirement:** Implement `MultiHeadAttention` in raw PyTorch without `nn.Transformer`.
-
-### Assignment 3. LLM Lifecycle: Fine-tuning (Tentative)
-- **Due:** Week 10
-- **Scope:** Parameter-Efficient Fine-Tuning (LoRA) of a small Llama/Qwen model on a custom instruction set.
-- **Eval:** Compare pre-trained vs. fine-tuned performance on specific tasks.
-
-### Assignment 4. RAG and Agent Systems (Tentative)
-- **Due:** Week 12
-- **Scope:** Build a vertical QA system (e.g., "Textbook Chatbot"). Index a specific PDF/Corpus, implement retrieval + generation loop, and evaluate hallucination rates using automated metrics.
 
 ### Course Project
 - **Timeline:** Weeks 13–16 (Dedicated time)
@@ -124,7 +110,6 @@ Use of AI coding assistants **is permitted**. However, you should explicitly att
 ### Week 2 N-Gram Language Models
 
 > In this lecture, we introduce the concept of MLE, Smoothing, Perplexity, and Language Modeling basics.
-
 > - **Slides:** <a href="slides/lecture-02-slides/index.html" target="_blank" rel="noopener">Lecture 02 slides</a>
 > - **Readings:**
 >   - <a href="papers/lecture-02-readings-0-JM_Book_Chapter_3.pdf" target="_blank" rel="noopener">JM Book Chapter 3</a>
@@ -148,32 +133,32 @@ Use of AI coding assistants **is permitted**. However, you should explicitly att
 
 ### Week 4 Neural LMs
 
-FFNNs for language, Softmax, Batching, Optimization
+> In this lecture, we introduce neural networks and how to build NN models for sequence learning problems.
+> We will discuss some classic models like LSTM and how the encoder-decoder style models developed and why the attention
+> is a effective component adding to encoder-decoder model.
+> - **Slides:** <a href="https://github.com/baojian/llm-26/blob/main/slides/lecture-04-slides/lecture-04-slides.pdf" target="_blank" rel="noopener">Lecture 04 slides</a>
+> - **Readings:**
+>   - <a href="papers/lecture-04-readings-0-JM_Book_Chapter_6_13.pdf" target="_blank" rel="noopener">JM Book Chapter 6,13</a>
+>   - <a href="papers/lecture-04-readings-1-NPLM.pdf" target="_blank" rel="noopener">NPLM (2003)</a>
+>   - <a href="papers/lecture-04-readings-2-Revisiting_Simple_NPLM.pdf" target="_blank" rel="noopener">Revisiting NPLM (2021)</a>
+>   - <a href="papers/lecture-04-readings-3-LSTM.pdf" target="_blank" rel="noopener">LSTM (1997)</a>
+>   - <a href="papers/lecture-04-readings-4-Attention-RNN.pdf" target="_blank" rel="noopener">Attention RNN (2015)</a>
+> - **Excercise: <a href="https://github.com/baojian/llm-26/blob/main/lecture-04-neural-lms/lecture-04-neural-lms.ipynb" target="_blank" rel="noopener">lecture-04-neural-lms.ipynb</a>**
 
-**Assignment 1 Due**
-**Release Assignment 2**
 
-### Week 5 Sequence Modeling
-
-RNNs/LSTMs (Brief overview), Encoder-Decoder paradigms
-
-
-### Week 6 Attention Mechanisms
+### Week 5 Attention Mechanisms
 
 Dot-product attention, Query/Key/Value intuition
 
-### Week 7 The Transformer Architecture
+### Week 6 The Transformer Architecture
 
 Self-Attention, Multi-head, Positional Encodings, LayerNorm
 
-**Assignment 2 Due** 
-**Release Assignment 3**
-
-### Week 8 LLM Pretraining
+### Week 7 LLM Pretraining
 
 Causal LM vs MLM, Chinchilla Scaling Laws, Data Mixtures
 
-### Week 9 Fine-tuning & PEFT
+### Week 8 Fine-tuning & PEFT
 
 SFT, LoRA/QLoRA, Adapters, Instruction Tuning
 
@@ -182,9 +167,6 @@ SFT, LoRA/QLoRA, Adapters, Instruction Tuning
 ### Week 10 Evaluation
 
 Benchmarks (MMLU/GSM8K), Contamination, LLM-as-a-judge
-
-**Assignment 3 Due** 
-**Release Assignment 4**
 
 ### Week 11 Prompt Engineering
 

@@ -217,6 +217,9 @@ gpt-2
 **/.datasets
 datasets.zip
 **/datasets.zip
+model.pt
+**/model.pt
+
 enwiki-test.json
 enwiki-train.json
 test.txt
