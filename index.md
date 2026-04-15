@@ -144,7 +144,7 @@ Use of AI coding assistants **is permitted**. However, you should explicitly att
 > - **Excercise: <a href="https://github.com/baojian/llm-26/blob/main/lecture-04-neural-lms/lecture-04-neural-lms.ipynb" target="_blank" rel="noopener">lecture-04-neural-lms.ipynb</a>**
 
 
-### Week 5 Attention Mechanisms and Transformer
+### Week 5 & 6 Attention Mechanisms and Transformer
 
 > In this lecture, we introduce the Transformer architecture.
 > - **Slides:** <a href="https://github.com/baojian/llm-26/blob/main/slides/lecture-05-slides/index.html" target="_blank" rel="noopener">Lecture 05 slides</a>
@@ -158,7 +158,16 @@ Use of AI coding assistants **is permitted**. However, you should explicitly att
 
 ### Week 7 LLM Pretraining
 
-Causal LM vs MLM, Chinchilla Scaling Laws, Data Mixtures
+
+> In this lecture, we introduce tpyical pretrained LLMs such as GPT-series.
+> - **Slides:** <a href="https://github.com/baojian/llm-26/blob/main/slides/lecture-06-slides/index.html" target="_blank" rel="noopener">Lecture 06 slides</a>
+> - **Readings:**
+>   - <a href="papers/lecture-06-readings-0-JM_Book_Chapter_7.pdf" target="_blank" rel="noopener">JM Book Chapter 7</a>
+>   - <a href="papers/lecture-06-readings-2-Decomposable-Attention-2017.pdf" target="_blank" rel="noopener">Decomposable Attention (2017)</a>
+>   - <a href="papers/lecture-06-readings-1-Transformer-paper.pdf" target="_blank" rel="noopener">Transformer (2017)</a>
+>   - <a href="papers/lecture-06-readings-3-Transformer-in-equation-2019.pdf" target="_blank" rel="noopener">Transformer in Equation (2019)</a>
+> - **Excercise: <a href="https://github.com/baojian/llm-26/blob/main/lecture-05-transformers/lecture-05-transformers.ipynb" target="_blank" rel="noopener">lecture-05-transformers.ipynb</a>**
+
 
 ### Week 8 Fine-tuning & PEFT
 
