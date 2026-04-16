@@ -234,3 +234,5 @@ model.safetensors
 **/model.safetensors
 .venv
 **/.venv
+.virtual_documents
+**/.virtual_documents
